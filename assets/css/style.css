@@ -21699,6 +21699,7 @@ span.select2-selection.select2-selection--single:focus {
 @media (max-width: 575px) {
   [dir=rtl] .header-layout2 .header-logo {
     margin-left: 0;
+    
   }
 }
 [dir=rtl] .header-layout2 .header-button {
