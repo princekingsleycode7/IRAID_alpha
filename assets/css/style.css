@@ -13615,9 +13615,11 @@ span.select2-selection.select2-selection--single:focus {
 .team-card .team-img {
   border-radius: 30px 30px 150px 150px;
   position: relative;
+  height: 300px;
+  width:300px
 }
 .team-card .team-img img {
-  width: 100%;
+  object-fit: contain;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: 0.4s;
@@ -16038,6 +16040,11 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-filter: grayscale(9);
           filter: grayscale(9);
 }
+
+.faqimg{
+  height: ;
+}
+
 .faq-img-box1 .img3 {
   display: inline-block;
   position: absolute;
